@@ -6,7 +6,7 @@ app.config(function ($routeProvider) {
       templateUrl: './home.html'
     })
     .when('/skills', {
-     controller: 'skillsController',
+     controller: 'skillController',
      templateUrl: './skill.html'
     })
     .otherwise({
