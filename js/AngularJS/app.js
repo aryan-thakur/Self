@@ -2,13 +2,13 @@ var app = angular.module("myApp", ["ngRoute"]);
 app.config(function ($routeProvider) {
   $routeProvider
     .when('/', {
-    //  controller: 'resultsController',
+      //controller: 'homeController',
       templateUrl: './home.html'
     })
-  //  .when('/model/:id', {
-  //   controller: 'pageController',
-  //   templateUrl: './model_page.html?v=23'
-  //  })
+    .when('/skills', {
+     controller: 'skillsController',
+     templateUrl: './skill.html'
+    })
     .otherwise({
       redirectTo: '/'
     });

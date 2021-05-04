@@ -93,6 +93,46 @@ ul>li{
   cursor: pointer;
 }
 
+#skillFlex{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  margin-top: 75px;
+  width: 100%;
+/*  border: 1px solid red;*/
+}
+
+.skillBlock{
+  min-width: 420px;
+  height: 320px;
+  border: 3px solid  slategray;
+  overflow: scroll;
+}
+.skillValue{
+  margin-top: 10px;
+  font-family: Helvetica, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  color: rgb(220,220,220,0.8);
+  letter-spacing: 2px;
+}
+.skillTitle{
+  font-family: Helvetica, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: rgba(135,206,250,0.7);
+  margin-top: 20px;
+}
+
+.graphic{
+  width: 350px;
+  padding: 0;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+}
 .social{
   margin-left: 40px;
 }
