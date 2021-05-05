@@ -27,7 +27,7 @@ $scope.makeGauges = function(){
     fractionDigits: 0  // Optional: Numerical precision. 0=round off.
   }
   };
-  for(int i = 0; i < $scope.skills.length; i++){
+  for(let i = 0; i < $scope.skills.length; i++){
     $scope.target = document.getElementById($scope.skills[i].id); // your canvas element
     $scope.gauge = new Gauge(target).setOptions($scope.opts); // create sexy gauge!
     gauge.maxValue = 100; // set max gauge value
