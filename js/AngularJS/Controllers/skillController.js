@@ -4,6 +4,9 @@ $scope.skills = [
   {id: "java", title: "JAVA", value: "90"}
 ];
 $scope.makeGauges = function(){
+    setTimeout(function(){ $scope.drawGauges() }, 100);
+}
+$scope.drawGauges = function(){
   $scope.opts = {
     angle: 0.15, // The span of the gauge arc
     lineWidth: 0.44, // The line thickness
@@ -29,11 +32,14 @@ $scope.makeGauges = function(){
   };
   for(let i = 0; i < $scope.skills.length; i++){
     $scope.target = document.getElementById($scope.skills[i].id); // your canvas element
-    $scope.gauge = new Gauge($scope.target).setOptions($scope.opts); // create sexy gauge!
-    gauge.maxValue = 100; // set max gauge value
-    gauge.setMinValue(0);  // Prefer setter over gauge.minValue = 0
-    gauge.animationSpeed = 32; // set animation speed (32 is default value)
-    gauge.set($scope.skills[i].value); // set actual value
+    if(!$scope.target){
+      alert("Graphics failed to render!");
     }
-  }
+    $scope.gauge = new Gauge($scope.target).setOptions($scope.opts); // create sexy gauge!
+    $scope.gauge.maxValue = 100; // set max gauge value
+    $scope.gauge.setMinValue(0);  // Prefer setter over gauge.minValue = 0
+    $scope.gauge.animationSpeed = 32; // set animation speed (32 is default value)
+    $scope.gauge.set($scope.skills[i].value); // set actual value
+    }
+}
 })
