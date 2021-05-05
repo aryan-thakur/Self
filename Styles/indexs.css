@@ -136,3 +136,8 @@ ul>li{
 .social{
   margin-left: 40px;
 }
+
+#mainview{
+  position: relative;
+  min-height: 100vh;
+}
