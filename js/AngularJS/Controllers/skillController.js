@@ -29,7 +29,7 @@ $scope.makeGauges = function(){
   };
   for(let i = 0; i < $scope.skills.length; i++){
     $scope.target = document.getElementById($scope.skills[i].id); // your canvas element
-    $scope.gauge = new Gauge(target).setOptions($scope.opts); // create sexy gauge!
+    $scope.gauge = new Gauge($scope.target).setOptions($scope.opts); // create sexy gauge!
     gauge.maxValue = 100; // set max gauge value
     gauge.setMinValue(0);  // Prefer setter over gauge.minValue = 0
     gauge.animationSpeed = 32; // set animation speed (32 is default value)
