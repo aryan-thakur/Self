@@ -100,6 +100,7 @@ ul>li{
   justify-content: space-around;
   align-items:center;
   margin-top: 75px;
+  margin-bottom: 75px;
   width: 100%;
 /*  border: 1px solid red;*/
 }
@@ -142,4 +143,39 @@ ul>li{
   position: relative;
   min-height: 100vh;
   padding-bottom: 75px;
+}
+#resume{
+  height: 175px;
+  background-color: snow;
+  padding-top: 15px;
+}
+
+#resumeText{
+  text-align: center;
+  font-family: Times, serif;
+  font-size: 36px;
+}
+#buttonWrapper{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+#resumeView{
+  cursor: pointer;
+  background-color: blue;
+  color: rgba(255,255,255,1);
+  font-weight: bold;
+  font-size:18px;
+  border: 1px solid lightskyblue;
+  letter-spacing: 2px;
+  width: 12%;
+  border-radius: 8px;
+  height: 40px;
+  margin: 0 auto;
+}
+#resumeInfo{
+  text-align: center;
+  padding-top: 18px;
+  font-size: 18px;
 }

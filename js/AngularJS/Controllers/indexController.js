@@ -1,5 +1,7 @@
 app.controller('indexController', function($scope, $http, $route) {
-
+  $scope.downloadResume = function(){
+    window.open("./Documents/aryanthakurresume.pdf", '_blank');
+  }
   $scope.initfn = function(){
     var chapter = location.href.split('/')[location.href.split('/').length - 1];
     var value = 0;
