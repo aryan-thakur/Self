@@ -44,9 +44,7 @@ $scope.drawGauges = function(){
     if(!$scope.target){
       alert("Graphics failed to render!");
     }
-    $scope.opts.staticLabels.labels.push($scope.skills[i].value);
     $scope.gauge = new Gauge($scope.target).setOptions($scope.opts); // create sexy gauge!
-    $scope.opts.staticLabels.labels.splice($scope.opts.staticLabels.labels.indexOf($scope.skills[i].value), 1);
     $scope.gauge.maxValue = 100; // set max gauge value
     $scope.gauge.setMinValue(0);  // Prefer setter over gauge.minValue = 0
     $scope.gauge.animationSpeed = 32; // set animation speed (32 is default value)
