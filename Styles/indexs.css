@@ -4,7 +4,9 @@
   padding: 0;
 }
 
-nav{  min-width: 1600px;
+nav{
+  min-width: 1000px;
+  width: 100%;
 }
 
 body{
