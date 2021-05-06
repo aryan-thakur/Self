@@ -1,7 +1,16 @@
 app.controller('skillController', function($scope, $http) {
 $scope.skills = [
-  {id: "python", title: "Python", value: "20"},
-  {id: "java", title: "JAVA", value: "90"}
+  {id: "python", title: "Python", value: "50"},
+  {id: "java", title: "JAVA", value: "85"},
+  {id: "c", title: "C", value: "85"},
+  {id: "cpp", title: "C++", value: "30"},
+  {id: "js", title: "JavaScript", value: "75"},
+  {id: "htmlid", title: "HTML5", value: "99"},
+  {id: "css3", title: "CSS3", value: "95"},
+  {id: "angularjs", title: "AngularJS", value: "80"},
+  {id: "php", title: "PHP", value: "75"},
+  {id: "sql", title: "SQL", value: "90"},
+  {id: "mipsassembly", title: "MIPS Assembly", value: "99"}
 ];
 $scope.makeGauges = function(){
     setTimeout(function(){ $scope.drawGauges() }, 100);
