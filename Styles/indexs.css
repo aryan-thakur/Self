@@ -181,3 +181,83 @@ ul>li{
   padding-top: 18px;
   font-size: 18px;
 }
+
+.projectBlock{
+  border: 2px solid rgba(135,206,250,0.7);
+  width: 20rem;
+  height: 25rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  overflow: hidden;
+}
+
+.projectName{
+  background-color: rgba(135,206,250,0.7);
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: rgba(0,0,0,0.9);
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.projectIcons{
+  height: 80%;
+  width: 100%;
+  display: grid;
+  grid-template:
+  ". . . . ."
+  ". mainlogo mainlogo mainlogo ."
+  ". mainlogo mainlogo mainlogo ."
+  ". mainlogo mainlogo mainlogo ."
+  ". one two three .";
+  grid-gap: 1em;
+  padding-bottom: 1em;
+  background-color: #dbd8e3;
+}
+
+.projectMain{
+  grid-area: mainlogo;
+}
+
+.projectSideA{
+  grid-area: one;
+}
+
+.projectSideB{
+  grid-area: two;
+}
+
+.projectSideC{
+  grid-area: three;
+}
+
+.projectFooters{
+  font-family: Helvetica, sans-serif;
+  color: rgba(0,0,0,0.9);
+  background-color: rgba(135,206,250,0.7);
+  height: 100%;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.credits{
+  margin-top: 10%;
+  color: rgba(0,0,0,0.5);
+}
+
+.scratchFlex{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  width: 100%;
+}
+
+.existingFlex{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  width: 100%;
+}

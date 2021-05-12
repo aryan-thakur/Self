@@ -9,6 +9,10 @@ app.config(function ($routeProvider) {
      controller: 'skillController',
      templateUrl: './skill.html'
     })
+    .when('/projects', {
+     controller: 'projectController',
+     templateUrl: './project.html'
+    })
     .otherwise({
       redirectTo: '/'
     });
