@@ -188,6 +188,7 @@ ul>li{
   height: 25rem;
   background-color: rgba(255, 255, 255, 0.7);
   overflow: hidden;
+  margin-bottom: 2.5rem;
 }
 
 .projectName{
@@ -259,7 +260,7 @@ ul>li{
   font-size: 24px;
   font-family: "Quicksand", sans-serif;
   margin-left: 2rem;
-  margin-top: 10%;
+  margin-top: 7%;
   margin-bottom: 4rem;
 }
 
