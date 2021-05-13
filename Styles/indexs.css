@@ -258,7 +258,7 @@ ul>li{
   color: lightskyblue;
   font-size: 24px;
   font-family: "Quicksand", sans-serif;
-  margin-left: 10%;
+  margin-left: 2rem;
   margin-top: 10%;
   margin-bottom: 4rem;
 }
@@ -288,4 +288,20 @@ ul>li{
   max-height: 100%;
   margin: 0 auto;
   object-fit: contain;
+}
+
+#credits{
+  margin-top: 6rem;
+  background-color: snow;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.creditanchor{
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
 }
