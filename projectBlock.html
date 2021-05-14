@@ -1,13 +1,10 @@
-<div class = "projectBlock" ng-mouseover="switch()" ng-mouseleave="switch()">
+<div class = "projectBlock">
   <h5 class = "projectName">{{info.name}}</h5>
-  <div class = "projectIcons" ng-show = "showicons">
+  <div class = "projectIcons">
   <image ng-src = "{{info.src[0]}}" class = "projectMain projectimg"></image>
   <image ng-src = "{{info.src[1]}}" class = "projectSideA projectimg"></image>
   <image ng-src = "{{info.src[2]}}" class = "projectSideB projectimg"></image>
   <image ng-src = "{{info.src[3]}}" class = "projectSideC projectimg"></image>
-  </div>
-  <div class = "projectInfo" ng-show = "showinfo">
-    <p>{{info.info}}</p>
   </div>
   <div class = "projectFooters">
     <p class = "projectSolo" ng-style="projectSolo(info.solo)">{{info.solo}}</p>
