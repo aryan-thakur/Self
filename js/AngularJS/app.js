@@ -13,6 +13,14 @@ app.config(function ($routeProvider) {
      controller: 'projectController',
      templateUrl: './project.html'
     })
+    .when('/newsboard', {
+     controller: 'newsController',
+     templateUrl: './news.html'
+    })
+    .when('/project/:id', {
+     //controller: 'projectdisplayController',
+     templateUrl: './projectdisplay.html'
+    })
     .otherwise({
       redirectTo: '/'
     });

@@ -71,6 +71,7 @@ ul>li{
 #footer{
   padding-left: 5%;
   width: 100%;
+  min-width: 500px;
   position: absolute;
   bottom: 0;
   background-color: #352f44;
@@ -189,6 +190,7 @@ ul>li{
   background-color: rgba(255, 255, 255, 0.7);
   overflow: hidden;
   margin-bottom: 2.5rem;
+  cursor: pointer;
 }
 
 .projectName{
