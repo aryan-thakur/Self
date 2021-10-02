@@ -18,7 +18,7 @@ app.config(function ($routeProvider) {
      templateUrl: './news.html'
     })
     .when('/project/:id', {
-     //controller: 'projectdisplayController',
+     controller: 'projectController',
      templateUrl: './projectdisplay.html'
     })
     .otherwise({

@@ -1,6 +1,6 @@
 <!--<h2 id = "scratchTitle" class = "projectTitles">Created from scratch</h2>-->
 <div id = "scratchFlex">
-<project-block ng-repeat = "project in scratchprojects"  info = "project"></project-block>
+<project-block ng-repeat = "project in scratchprojects"  info = "project" ng-click = "navigate(project.id)"></project-block>
 </div>
 <!--<h2 id = "existingTitle" class = "projectTitles">Existing and worked upon</h2>
 <div id = "existingFlex">
