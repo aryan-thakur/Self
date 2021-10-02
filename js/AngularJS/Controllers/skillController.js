@@ -1,13 +1,16 @@
 app.controller('skillController', function($scope, $http) {
 $scope.skills = [
-  {id: "python", title: "Python", value: "50"},
-  {id: "java", title: "JAVA", value: "85"},
-  {id: "c", title: "C", value: "85"},
+  {id: "python", title: "Python", value: "60"},
+  {id: "java", title: "JAVA", value: "90"},
+  {id: "c", title: "C", value: "95"},
   {id: "cpp", title: "C++", value: "30"},
-  {id: "js", title: "JavaScript", value: "75"},
+  {id: "js", title: "JavaScript", value: "85"},
+  {id: "ts", title: "TypeScript", value: "80"},
   {id: "htmlid", title: "HTML5", value: "99"},
   {id: "css3", title: "CSS3", value: "95"},
   {id: "angularjs", title: "AngularJS", value: "80"},
+  {id: "angular", title:"Angular", value: "60"},
+  {id: "react", title:"React", value:"50"},
   {id: "php", title: "PHP", value: "75"},
   {id: "sql", title: "SQL", value: "90"},
   {id: "mipsassembly", title: "MIPS Assembly", value: "99"}
