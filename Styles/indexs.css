@@ -165,8 +165,8 @@ ul>li{
   flex-wrap:wrap;
 }
 #resumeView{
-  cursor: pointer;
-  background-color: blue;
+  cursor: not-allowed;
+  background-color: rgb(77, 115, 189);
   color: rgba(255,255,255,1);
   font-weight: bold;
   font-size:18px;
