@@ -1,1 +1,14 @@
-<p>Hello</p>
+<div class = "header">
+  <div id = "heading">
+  <span class="subtitle" id="back" ng-click="back()"><</span><h2 class="subtitle">{{project.name}}</h2>
+  </div>
+  <div id = "stack">
+    <p class = "tags" ng-repeat = "tag in project.stack" ng-style="tags[$index]">{{tag}}</p>
+  </div>
+</div>
+<div id = "maincontent">
+  <p>{{project.desc}}</p>
+</div>
+<div id="iframewrapper" ng-show="video">
+<iframe width="560" height="315" id="mediaplayer" ng-src="{{video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
