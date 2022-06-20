@@ -372,3 +372,7 @@ ul>li{
 #back:hover{
   opacity: 50%;
 }
+
+#newsbody {
+  margin: 30px 30px
+}
