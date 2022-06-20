@@ -14,7 +14,6 @@ app.config(function ($routeProvider) {
      templateUrl: './project.html'
     })
     .when('/newsboard', {
-     controller: 'newsController',
      templateUrl: './news.html'
     })
     .when('/project/:id', {
