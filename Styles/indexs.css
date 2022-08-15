@@ -22,6 +22,18 @@ h1{
   text-shadow: 2px 2px 1px #000000;
 }
 
+h2{
+  color: 	rgba(216, 216, 227, 0.8);
+  text-align: center;
+  font-size: 38px;
+ }
+
+ .skillValue h2{
+   color: 	rgba(216, 216, 227, 0.8);
+   text-align: center;
+   font-size: 38px;
+ }
+
 html{
   background-color: #2a2438;
   height: 100%;
@@ -375,4 +387,14 @@ ul>li{
 
 #newsbody {
   margin: 30px 30px
+}
+
+.position {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.time{
+  font-size: 26px;
 }
